@@ -1,0 +1,183 @@
+/* html,
+body {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Rubik";
+  letter-spacing: 3px;
+} */
+
+/* element */
+
+* {
+  background-image: url("./bgimage.jpg");
+
+}
+
+
+.let_space {
+  letter-spacing: 2px;
+}
+
+.c_grid {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-gap: 2vmax;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 2vmax;
+}
+
+.box2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.box3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* element */
+
+.table_cont {
+  overflow-x: scroll;
+  width: 70vw;
+}
+
+table {
+  border-collapse: collapse;
+  letter-spacing: 3px;
+  /* width: 100%; */
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 1vmax;
+  width: fit-content;
+}
+
+form {
+  margin: 2vmax 10vmax;
+  padding: 3vmax;
+  border: 1px solid #dddddd;
+}
+
+label {
+  font-size: 1.5vmax;
+}
+
+input {
+  padding: 1vmax;
+  font-size: 1.3vmax;
+  border: 1px solid #dddddd;
+  outline: none;
+}
+
+select {
+  padding: 1vmax;
+  font-size: 1.3vmax;
+  border: 1px solid #dddddd;
+  outline: none;
+  letter-spacing: 3px;
+}
+
+option {
+  font-size: 1.5vmax;
+  letter-spacing: 3px;
+}
+
+.file_submit {
+  margin-top: 1vmax;
+  border: 1px solid #55acee;
+  outline: none;
+  background-color: #55acee;
+  color: white;
+  padding: 1vmax;
+  cursor: pointer;
+  transition: 0.3s;
+  letter-spacing: 3px;
+}
+
+.file_submit:hover {
+  background-color: white;
+  color: #55acee;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+/* body{
+    background-color: #4dc3ff !important;
+} */
+
+.row a {
+  color: black !important;
+  width: auto;
+}
+
+/* .row button:hover{
+	background-color: #1B8798;
+    color: white;;
+} */
+
+.main {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: 10vh;
+  max-width: 800px;
+  margin: 0px;;
+  /* width: 400px; */
+  margin: 0 auto;
+}
+
+.main2 {
+  border-style: solid;
+  border-color: black;
+}
+
+/* .home-buttons{
+    max-width: 800px;
+	align-items: center;
+	margin: 0px;
+	width: 400px;
+	padding: 0 10%;
+	margin: 0 auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-buttons button{
+	padding: 0px 20px;
+    width: 125%;
+} */
+
+/* div.main{
+    height: 10em;
+    position: relative }
+
+div.main p,h1 {
+    margin: 0;
+    background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) } */
